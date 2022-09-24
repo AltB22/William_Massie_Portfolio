@@ -2,29 +2,27 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  flex: auto;
 }
 
-body {
-  background-color: azure;
-  height: auto;
-}
 
-header {
+.header {
   background-color:rgb(28, 51, 74);
   padding-left: 0px;
   /*Wanted to have all items in header vertically aligned with eachother.  Needs research!*/
   vertical-align: center;
-  height: 100px;
+  height: 110px;
   width: auto;
 }
  
-header h1 {
+.header h1 {
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 250%;
   
 }
-header nav li {
+
+.header nav li {
   display: inline-block;
   float: right;
   text-align: right;
@@ -39,4 +37,9 @@ a {
 
 nav {
   text-align: center;
+}
+
+body main img {
+  height: 100%;
+  width: 100%;
 }
