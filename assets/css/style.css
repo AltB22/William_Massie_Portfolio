@@ -1,33 +1,42 @@
-* {
+:root {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-header {
-  background-color: darkslategray;
-  color: white;
-  text-align: left;
-  padding-left: 25px;
-  padding-top: 25px;
-  vertical-align: middle;
-  height: 130px;
-  width: auto;
+body {
+  background-color: azure;
+  height: auto;
 }
 
+header {
+  background-color:rgb(28, 51, 74);
+  padding-left: 0px;
+  /*Wanted to have all items in header vertically aligned with eachother.  Needs research!*/
+  vertical-align: center;
+  height: 100px;
+  width: auto;
+}
+ 
 header h1 {
-  display: inline-block;
+  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 250%;
   
 }
-
-header nav a {
+header nav li {
   display: inline-block;
   float: right;
-  color: white;
   text-align: right;
   font-size:large;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 10px;
+}
+
+a {
+  color: white;
+}
+
+nav {
+  text-align: center;
 }
