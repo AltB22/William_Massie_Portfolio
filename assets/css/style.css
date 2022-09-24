@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(236, 197, 115);
+  color: rgb(6, 15, 115);
+  text-align: left;
+  height: 125px;
+  width: auto;
+}
+
+header h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav a {
+  color: rgb(6, 15, 115);
+  text-align: right;
+  font-size:large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
