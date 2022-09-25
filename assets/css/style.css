@@ -15,18 +15,19 @@
   /*Wanted to have all items in header vertically aligned with eachother.  Needs research!*/
   vertical-align: center;
   height: 110px;
-  width: auto;
+  width: 100%;
 }
  
 .header h1 {
-  padding-left: 45px;
   color: white;
+  padding-left: 45px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 250%;
   
 }
 
 .header nav li {
+  color: white;
   display: inline-block;
   text-align: right;
   font-size:large;
@@ -39,7 +40,7 @@ a {
 }
 
 nav {
-  text-align: center;
+  text-align: right;
 }
 
 body {
@@ -70,6 +71,9 @@ img {
 }
 
 h2 {
+  border-radius: 10%;
+  margin-left: 200px;
+  margin-right: 200px;
   background-color: rgb(28, 51, 74);
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -77,12 +81,12 @@ h2 {
   text-align: center;
 }
 
-.card {
+.card p {
   vertical-align: top;
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
-  background-color:white;
+  color: var(--cardtextcolor);
   padding-left: 50px;
   padding-right: 50px;
   font-size: var(--cardtext);
@@ -93,11 +97,14 @@ h2 {
   padding: 0px;
   list-style: none;
   text-align: center;
-  background-color:white;
+ 
   font-size: var(--cardtext);
-  color: var(--cardtextcolor);
+  
 }
 
+li a {
+  color: color: var(--cardtextcolor);
+}
 footer p {
   width: 100%;
   text-align: center;
