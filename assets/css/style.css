@@ -52,8 +52,8 @@ body {
 }
 
 h2 {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: rgb(28, 51, 74);
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -62,22 +62,18 @@ h2 {
 }
 
 .hero {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-section img {
-  text-align: center;
-  display: inline-flex;
-  width: 50%;
-  text-align: center; 
+h3 {
+   text-align: center;
+}
+
+.Portfolio {
+  justify-content: center;
+  display: block;
 }
 
 #Visible-Qi {
@@ -88,17 +84,17 @@ section img {
 }
 
 #Books {
-  width: 50%;
-  height: 100%;
-  border-radius: 0%;
-  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 #Marketing-Meeting {
-  width: 400px;
-  height: 100%;
-  border-radius: 0%;
-  z-index: -2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .li {
@@ -117,7 +113,7 @@ section img {
   padding-bottom: 10px;
 }
 
-.card ul li {
+.card ul {
   padding: 0px;
   list-style: none;
   text-align: center;
