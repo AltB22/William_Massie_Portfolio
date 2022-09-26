@@ -4,9 +4,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  flex: auto;
+  height: 100%;
 }
-
 
 .header {
   background-color:rgb(28, 51, 74);
@@ -25,9 +24,11 @@
   
 }
 nav ul li {
-  display: inline-block;
   text-align: right;
+  float: right;
+  list-style: none;
 }
+
 nav a {
   text-decoration: none;
   color: white;
@@ -43,30 +44,14 @@ body {
   flex: auto;
 }
 
-.row {
-  display: flex;
-}
-
-img {
-  padding-left: 20px;
-  padding-right: 20px;
+#Me {
+  padding-top: 10px;
   border-radius: 50%;
-  max-width: 300px;
-  max-height: 300px;
-}
-
-.column #Visible-Qi {
-  max-height: 450px;
-  min-width: 1250px;
-  border-radius: 0%;
-  flex: 50%;
-  padding-top: -20px;
-  padding-bottom: 10px;
-  padding-right: 50px;
+  width: 300px;
+ 
 }
 
 h2 {
-  border-radius: 10%;
   margin-left: 200px;
   margin-right: 200px;
   background-color: rgb(28, 51, 74);
@@ -76,14 +61,48 @@ h2 {
   text-align: center;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section img {
+  text-align: center;
+  display: inline-flex;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+#Books {
+  width: 50%;
+  height: 100%;
+  border-radius: 0%;
+  z-index: -1;
+}
+
+#Marketing-Meeting {
+  width: 400px;
+  height: 100%;
+  border-radius: 0%;
+  z-index: -2;
+}
+
+.li {
+  list-style: none;
+  text-align: center;
+  color: var(--cardtextcolor);
+}
+
 .card p {
   vertical-align: top;
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
   color: var(--cardtextcolor);
-  padding-left: 50px;
-  padding-right: 50px;
+  
+  
   font-size: var(--cardtext);
   padding-bottom: 10px;
 }
@@ -93,30 +112,6 @@ h2 {
   list-style: none;
   text-align: center;
   font-size: var(--cardtext);
-}
-
-#Books {
-  margin-left: 150px;
-  min-height: 400px;
-  min-width: 600px;
-  border-radius: 0%;
-  flex: 50%;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-right: 50px;
-}
-
-#Marketing-Meeting {
-  min-height: 300px;
-  min-width: 500px;
-  border-radius: 0%;
-  flex: 50%;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 50px;
-}
-.card li a {
-  color: var(--cardtextcolor);
 }
 
 footer p {
