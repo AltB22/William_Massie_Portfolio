@@ -51,6 +51,12 @@ body {
   height: 250px;
 }
 
+#Visible-Qi {
+  width: 1250px;
+  height: 500px;
+  padding-top: 10px;
+}
+
 h2 {
   margin-left: 50px;
   margin-right: 50px;
@@ -73,14 +79,7 @@ h3 {
 
 .Portfolio {
   justify-content: center;
-  display: block;
-}
-
-#Visible-Qi {
-  width: 1000px;
-  height: 500px;
-  padding-right: 80px;
-  padding-top: 10px;
+  display: inline-block;
 }
 
 #Books {
@@ -106,8 +105,8 @@ h3 {
 .card p {
   vertical-align: top;
   text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
   color: var(--cardtextcolor);
   font-size: var(--cardtext);
   padding-bottom: 10px;
