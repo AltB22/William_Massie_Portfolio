@@ -12,7 +12,7 @@
 Installation & usage is simply through loading the public url into your browswer search bar and using the links to navigate.
 
 Link to deployed site:
-https://github.com/AltB22/William_Massie_Portfolio.git
+https://altb22.github.io/William_Massie_Portfolio/
 
 ![Home Page of William_Massie_Portfolio] (https://github.com/AltB22/William_Massie_Portfolio/blob/main/assets/images/Screen%20Shot%202022-09-26%20at%205.11.52%20PM.png)
 
