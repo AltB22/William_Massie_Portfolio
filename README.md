@@ -14,7 +14,7 @@ Installation & usage is simply through loading the public url into your browswer
 Link to deployed site:
 https://github.com/AltB22/William_Massie_Portfolio.git
 
-![Home Page of William_Massie_Portfolio] (assets/images/Screen Shot 2022-09-26 at 5.11.52 PM.png)
+![Home Page of William_Massie_Portfolio] (https://github.com/AltB22/William_Massie_Portfolio/blob/main/assets/images/Screen%20Shot%202022-09-26%20at%205.11.52%20PM.png)
 
 ## Credits
 

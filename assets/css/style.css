@@ -1,3 +1,4 @@
+/*root defines univerasal settings for all card text and card text color for easier adjusment if necessary*/
 :root {
   --cardtext: 20px;
   --cardtextcolor: black;
@@ -7,15 +8,15 @@
   height: 100%;
 }
 
+/* .header defines styling colors, row height and span of viewport at 100%*/
 .header {
   background-color:rgb(28, 51, 74);
-  padding-left: 0px;
-  /*Wanted to have all items in header vertically aligned with eachother.  Needs research!*/
   vertical-align: center;
   height: 110px;
   width: 100%;
 }
  
+/* .header hi defines text color, padding of text font*/
 .header h1 {
   color: white;
   padding-left: 45px;
@@ -23,27 +24,34 @@
   font-size: 250%;
   
 }
+
+/*Navigation bar placement removal of any list imagery (bullet points)*/
 nav ul li {
-  text-align: right;
   float: right;
   list-style: none;
 }
 
+/*Navigation bar layout in element, text color and styling.*/
 nav a {
-  text-decoration: none;
-  color: white;
   display: inline-block;
-  text-align: right;
+  color: white;
+  font-size:large;
   font-size:large;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 10px;
 }
 
+/*Backgound color for all visible area (grey areas)*/
 body {
   background-color: rgb(241, 241, 232);
-  flex: auto;
 }
-
+/*Establishes flexbox and wrapping layout for the top photos element so that the display size can be responsive to the size of viewport*/
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*Specs for profile img*/
 #Me {
   padding-top: 10px;
   border-radius: 50%;
@@ -51,12 +59,14 @@ body {
   height: 250px;
 }
 
+/*Specs for sunset img*/
 #Visible-Qi {
   width: 1250px;
   height: 500px;
   padding-top: 10px;
 }
 
+/*Secondary Heading specs*/
 h2 {
   margin-left: 50px;
   margin-right: 50px;
@@ -67,28 +77,24 @@ h2 {
   text-align: center;
 }
 
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
+/*Tertiary heading text alignment to center*/
 h3 {
    text-align: center;
 }
 
+/*Content layout for Portfolio section*/
 .Portfolio {
   justify-content: center;
-  display: inline-block;
 }
 
+/*Image specs (which are also links to deployed sites)*/
 #Books {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
 }
-
+/*Image specs (which are also links to deployed sites)*/
 #Marketing-Meeting {
   display: block;
   margin-left: auto;
@@ -96,12 +102,14 @@ h3 {
   width: 30%;
 }
 
+/*Contact Info sectin list styling*/
 .li {
   list-style: none;
   text-align: center;
   color: var(--cardtextcolor);
 }
 
+/*Paragraph styling for both of the card sections*/
 .card p {
   vertical-align: top;
   text-align: justify;
@@ -112,13 +120,14 @@ h3 {
   padding-bottom: 10px;
 }
 
+/*Contact info list items centered without bullets (list style) and coloring*/
 .card ul {
-  padding: 0px;
   list-style: none;
   text-align: center;
   font-size: var(--cardtext);
 }
 
+/*Footer styling*/
 footer p {
   width: 100%;
   text-align: center;
